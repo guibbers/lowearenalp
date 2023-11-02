@@ -32,7 +32,7 @@ h6 {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
+  left: 15px;
   bottom: 15px;
   z-index: 996;
   background: #5b8256;
@@ -453,19 +453,20 @@ h6 {
 }
 
 #hero .btn-get-started {
-  background-color: #fff;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
+  position: fixed;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #5b8256;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
   font-weight: 700;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-  display: inline-block;
-  padding: 10px 28px;
-  transition: 0.5s;
-  border: 2px solid #fff;
-  color: #5b8256;
-}
-
+  text-decoration: none;
+  z-index: 3;
+} 
 #hero .btn-get-started:hover {
   background: #5b8256;
   border-color: #5b8256;
@@ -481,6 +482,10 @@ h6 {
 @media (max-width: 768px) {
   #hero {
     text-align: center;
+  }
+
+  .main-title {
+    display: none;
   }
 
   #hero .container {
@@ -561,6 +566,10 @@ h6 {
   border-color: #5b8256;
 }
 
+.offered-modalities {
+  margin-left: 45%;
+}
+
 @media (min-width: 1024px) {
   #hero2 {
     background-attachment: fixed;
@@ -570,6 +579,9 @@ h6 {
 @media (max-width: 768px) {
   #hero2 {
     text-align: center;
+  }
+  .offered-modalities {
+    margin-left: 30%;
   }
 
   #hero2 .container {
@@ -623,7 +635,7 @@ section {
 .classes {
   color: #fff;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1.1em;
   list-style-type: none;
 }
 
@@ -822,7 +834,7 @@ section {
 .whatsapp-button {
   position: fixed;
   bottom: 40px;
-  left: 40px;
+  right: 40px;
   width: 80px; /* Largura e altura ajustadas para o tamanho desejado */
   height: 80px;
   border-radius: 50%;
@@ -840,16 +852,48 @@ section {
   color: white;
   font-size: 36px; /* Tamanho do ícone ajustado */
 }
+.instagram-button {
+  position: fixed;
+  bottom: 130px;
+  right: 40px;
+  width: 80px; /* Largura e altura ajustadas para o tamanho desejado */
+  height: 80px;
+  border-radius: 50%;
+  background-color: #C13584;
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.instagram-button a {
+  text-decoration: none;
+}
+
+.instagram-button i {
+  color: white;
+  font-size: 36px; /* Tamanho do ícone ajustado */
+}
 
 @media (max-width: 768px) {
   .whatsapp-button {
     bottom: 10px; /* Margem inferior menor para telas de celular */
-    left: 10px; /* Margem esquerda menor para telas de celular */
+    right: 10px; /* Margem esquerda menor para telas de celular */
     width: 40px;
     height: 40px;
   }
 
   .whatsapp-button i {
+    color: white;
+    font-size: 16px; /* Tamanho do ícone ajustado */
+  }
+  .instagram-button {
+    bottom: 60px; /* Margem inferior menor para telas de celular */
+    right: 10px; /* Margem esquerda menor para telas de celular */
+    width: 40px;
+    height: 40px;
+  }
+
+  .instagram-button i {
     color: white;
     font-size: 16px; /* Tamanho do ícone ajustado */
   }
