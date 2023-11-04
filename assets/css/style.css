@@ -487,7 +487,7 @@ h6 {
 
   #hero .btn-get-started {
     position: fixed;
-    bottom: 15px;
+    bottom: 25px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #5b8256;
@@ -504,6 +504,7 @@ h6 {
 
   .main-title {
     display: none;
+    margin-bottom: -50px !important;
   }
 
   #hero .container {
@@ -768,6 +769,8 @@ section {
   .promo-mobile{
     font-size: 1.4em !important;
     margin-top: -20px !important;
+    padding-bottom: 30px;
+    margin-bottom: 0px !important;
   }
   .title-mobile {
     text-align: center !important;
@@ -896,24 +899,24 @@ section {
   .whatsapp-button {
     bottom: 10px; /* Margem inferior menor para telas de celular */
     right: 10px; /* Margem esquerda menor para telas de celular */
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
   }
 
   .whatsapp-button i {
     color: white;
-    font-size: 16px; /* Tamanho do ícone ajustado */
+    font-size: 32px; /* Tamanho do ícone ajustado */
   }
   .instagram-button {
-    bottom: 60px; /* Margem inferior menor para telas de celular */
+    bottom: 100px; /* Margem inferior menor para telas de celular */
     right: 10px; /* Margem esquerda menor para telas de celular */
-    width: 40px;
-    height: 40px;
+    width: 80px;
+    height: 80px;
   }
 
   .instagram-button i {
     color: white;
-    font-size: 16px; /* Tamanho do ícone ajustado */
+    font-size: 32px; /* Tamanho do ícone ajustado */
   }
 }
 
