@@ -454,7 +454,7 @@ h6 {
 
 #hero .btn-get-started {
   position: fixed;
-  bottom: 60px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   background-color: #5b8256;
@@ -586,7 +586,12 @@ h6 {
 }
 
 .offered-modalities {
-  margin-left: 45%;
+  /* margin-left: 45%; */
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
 @media (min-width: 1024px) {
