@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -474,6 +477,23 @@ h6 {
   color: #fff;
 }
 
+#hero-mobile .btn-get-started {
+  position: fixed;
+  left: 50%;
+  bottom: 20px !important;
+  transform: translateX(-50%);
+  background-color: green !important;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 3;
+  width: 140px;
+} 
+
 @media (min-width: 1024px) {
   #hero {
     background-attachment: fixed;
@@ -484,23 +504,6 @@ h6 {
   #hero {
     text-align: center;
   }
-
-  #hero .btn-get-started {
-    position: fixed;
-    bottom: 25px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #5b8256;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 700;
-    text-decoration: none;
-    z-index: 3;
-    width: 140px;
-  } 
 
   .main-title {
     display: none;
@@ -523,6 +526,95 @@ h6 {
   }
 }
 
+/* HERO MOBILE */
+
+.mobile-margins {
+  margin-top: -70px !important;
+}
+
+.mobile-action-margin {
+  margin-top: -35px !important;
+  margin-bottom: 30px !important;
+}
+
+.whatsapp_call_mobile {
+  background-color: #5b8256;
+  color: #fff;
+}
+
+.mobile-larger-text {
+  font-size: 100px !important;
+}
+
+#hero-mobile  {
+  width: 100%;
+  height: 900px;
+  background: url("../img/Lowe_Julho-01.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-mobile:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#hero-mobile h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.rotate-anti-clockwise {
+  transform: rotate(-10deg);
+  display: inline-block;
+  font-weight: bolder;
+  font-size: 2.0em;
+  font-family: 'Delicious Handrawn', cursive;
+}
+
+#hero-mobile h2 {
+  color: #eee;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+#hero-mobile h3 {
+  color: #eee;
+  margin-bottom: 30px;
+}
+#hero-mobile p {
+  color: #eee;
+  margin-bottom: 30px;
+}
+
+#hero-mobile .btn-get-started {
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #5b8256;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: 700;
+  text-decoration: none;
+  z-index: 3;
+  width: 200px;
+} 
+#hero-mobile .btn-get-started:hover {
+  background: #5b8256;
+  border-color: #5b8256;
+  color: #fff;
+}
 
 /* HERO 2 */
 
@@ -585,10 +677,6 @@ h6 {
   border-color: #5b8256;
 }
 
-.offered-modalities {
-  /* margin-left: 45%; */
-}
-
 .bold {
   font-weight: bold;
   font-size: 1.2rem;
@@ -603,9 +691,6 @@ h6 {
 @media (max-width: 768px) {
   #hero2 {
     text-align: center;
-  }
-  .offered-modalities {
-    margin-left: 30%;
   }
 
   #hero2 .container {
@@ -904,8 +989,8 @@ section {
   .whatsapp-button {
     bottom: 10px; /* Margem inferior menor para telas de celular */
     right: 10px; /* Margem esquerda menor para telas de celular */
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
 
   .whatsapp-button i {
@@ -915,8 +1000,8 @@ section {
   .instagram-button {
     bottom: 100px; /* Margem inferior menor para telas de celular */
     right: 10px; /* Margem esquerda menor para telas de celular */
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
   }
 
   .instagram-button i {
