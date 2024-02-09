@@ -3,6 +3,8 @@
 --------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Londrina+Solid:wght@400;900&display=swap');
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -416,7 +418,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero  {
   width: 100%;
-  height: calc(100vh - 110px);
+  height: 100vh;
   background: url("../img/Lowe_Julho-01.jpg") top center;
   background-size: cover;
   position: relative;
@@ -455,12 +457,25 @@ h6 {
   margin-bottom: 30px;
 }
 
+.londrina-solid {
+  font-family: "Londrina Solid";
+  font-size: 4em;
+  margin-top: -90px;
+}
+
+.londrina-outline {
+  font-family: "Londrina Outline";
+  font-size: 4em;
+  font-weight: 600;
+  margin-top: -40px;
+}
+
 #hero .btn-get-started {
   position: fixed;
   bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #5b8256;
+  background-color: green;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -468,6 +483,7 @@ h6 {
   font-size: 22px;
   font-weight: 700;
   text-decoration: none;
+  transition: 0.5s;
   z-index: 3;
   width: 300px;
 } 
@@ -492,7 +508,13 @@ h6 {
   text-decoration: none;
   z-index: 3;
   width: 140px;
-} 
+}
+
+.title-margin-desktop {
+  margin-bottom: 10px !important;
+  font-size: 2.8em !important;
+  font-weight: 700;
+}
 
 @media (min-width: 1024px) {
   #hero {
@@ -528,6 +550,23 @@ h6 {
 
 /* HERO MOBILE */
 
+#hero-mobile {
+  margin-top: 50px !important;
+}
+
+#hero-mobile h2{
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.3em;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 0px !important;
+}
+
+.title-margin {
+  padding-bottom: 10px !important;
+  font-weight: 700 !important;
+  
+}
 .mobile-margins {
   margin-top: -70px !important;
 }
