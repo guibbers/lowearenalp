@@ -458,16 +458,16 @@ h6 {
 }
 
 .londrina-solid {
-  font-family: "Londrina Solid";
-  font-size: 4em;
-  margin-top: -90px;
+  font-family: "Londrina Solid" !important;
+  font-size: 4em !important;
+  margin-top: -90px !important;
 }
 
 .londrina-outline {
-  font-family: "Londrina Outline";
-  font-size: 4em;
-  font-weight: 600;
-  margin-top: -40px;
+  font-family: "Londrina Outline" !important;
+  font-size: 4em !important;
+  font-weight: 600 !important;
+  margin-top: -40px !important;
 }
 
 #hero .btn-get-started {
