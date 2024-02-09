@@ -472,7 +472,7 @@ h6 {
 
 #hero .btn-get-started {
   position: fixed;
-  bottom: 100px;
+  bottom: 40px;
   left: 50%;
   transform: translateX(-50%);
   background-color: green;
